@@ -1,0 +1,104 @@
+body {
+  background-color: #3B3A3C;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  line-height: 2;
+  font-family: sans-serif;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+th#destination {
+  width: 160px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:hover {
+  background-color: #B4B3B5;
+}
+
+tr.title:hover {
+  background:none;
+}
+
+section {
+  width: 450px;
+  margin-left: -100px;
+}
+
+.line {
+  background-color: #E0DFE0;
+}
+
+.content {
+  font-size: 17px;
+  line-height: 1;
+  display: inline-block;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  margin-left: -100px;
+  display: inline;
+  padding: 10px 0 5px 5px;
+  position: absolute;
+  width: 445px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  word-spacing: 130px;
+}
+
+.arrow {
+  margin-left: 25px
+}
+
+.menu {
+  display: inline;
+
+}
+
+.BusyBus-data {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.footer {
+  position: absolute;
+  margin-left: -30px;
+  margin-bottom: 50px;
+  padding: 15px 0 20px;
+  width: 390px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  letter-spacing: 55px;
+  font-size: 22px;
+  padding-left: 60px;
+  text-align: center;
+}
+
+a:hover {
+  color: blue;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
