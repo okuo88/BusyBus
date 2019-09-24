@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
   font-size: 10px;
   line-height: 2;
-  font-family: sans-serif;
 }
 
 th, td {
@@ -12,13 +11,15 @@ th, td {
     padding-top: 0px;
 }
 
-th#destination {
-  width: 160px;
+td.destination {
+  width: 210px;
 }
+
 
 table {
   border-collapse: collapse;
   width: 100%;
+  background-color: #F2F2F2;
 }
 
 tr:hover {
@@ -35,7 +36,7 @@ section {
 }
 
 .line {
-  background-color: #E0DFE0;
+  background-color: white;
 }
 
 .content {
@@ -56,13 +57,14 @@ section {
 nav {
   margin-left: -100px;
   display: inline;
-  padding: 10px 0 5px 5px;
+  padding: 30px 0 0px 5px;
   position: absolute;
   width: 445px;
-  background-color: black;
+  background-color: white;
   font-size: 20px;
-  color: white;
-  word-spacing: 130px;
+  color: black;
+  word-spacing: 55px;
+  letter-spacing: .2px;
 }
 
 .arrow {
@@ -71,7 +73,12 @@ nav {
 
 .menu {
   display: inline;
+}
 
+h1 {
+  padding: 30px 0 0px 5px;
+  word-spacing: 5px;
+  padding-left: 30px;
 }
 
 .BusyBus-data {
@@ -83,7 +90,7 @@ nav {
   position: absolute;
   margin-left: -30px;
   margin-bottom: 50px;
-  padding: 15px 0 20px;
+  padding: 35px 0 20px;
   width: 390px;
   height: 20px;
   background-color: white;
@@ -101,4 +108,12 @@ a:hover {
 button {
   background-color: blue;
   color: white;
+}
+
+button.red {
+  background-color: red;
+}
+
+button.grey {
+  background-color: grey;
 }
