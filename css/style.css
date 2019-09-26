@@ -6,11 +6,12 @@ body {
 th, td {
     text-align: left;
     padding-top: 2px;
+    text-align: center;
 }
 
 td.destination {
   width: 200px;
-}
+  }
 
 
 table {
@@ -144,6 +145,7 @@ button {
   color: white;
   font-size: 15px;
   border-radius: 4px;
+  border: none
 }
 
 button.red {
