@@ -6,65 +6,80 @@
         <title>Busybus</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/e5a2a57b25.js" crossorigin="anonymous"></script>
+
       </head>
       <body>
 
     <section class="container">
 
        <nav>
-        <div class="arrow">
+        <img src="/css/bar.png" alt="bar" style="float:center; width:445px;height:35px;">
+        <div class="top">
           <a class="fas fa-arrow-left"></a>
-          <span class="logo"><font size="4"><b>Washington&State</b></font></span>
-          <div class="menu"><a class="fas fa-bars"></a>
+          <span class="logo"><font size="4">Washington & State</font></span>
+          <div class="menu"><a class="fas fa-bookmark"></a>
         </div>
       </nav>
 
-      <section class="BusyBus-data">
+      <section class="BusyBus">
         <div class="line">
           <div class="content">
 
           <table>
             <tr class="title">
-             <h1>ETA | Incoming Buses</h1>
+             <h1><a class="fas fa-bars"></a> ETA | Incoming Buses</h1>
               <th></th>
            </tr><tr>
                <th></th>
-               <th scope="col">09:00</th>
+               <th scope="col"><h2>09:00</h2></th>
              <td><button type="button"><span class="badge"><b>151</b></span></button></td>
              <td class="destination"><font size="3"><b>Northbound</b></font></td>
            </tr><tr>
-              <th></th><td>AM</td><th></th>
-              <th>To Devon/Clark</th>
+              <th></th><td><h2>AM</h2></td><th></th>
+              <th><h3>To Devon/Clark</h3></th>
+            </tr><tr>
+               <th></th><td></td><th></th>
+               <th><h2>Every 16 minutes</h2></th>
               </tr>
             </table>
-             <hr/>
+
+            <div class="service">
+            <i class="fas fa-exclamation-triangle"></i><h4> Experiencing Delays</h4>
+</div>
+
 
              <table>
                <tr class="title">
                  <th></th>
               </tr><tr>
                   <th></th>
-                  <th scope="col">09:15</th>
-                <td><button class="red" type="button><span class="badge"><b>124</b></span></button></td>
-                <td class="destination"><font size="3"><b>Eastbound</b></font></td>
+                  <th scope="col"><h2>09:15</h2></th>
+              <td><button class="red" type="button><span class="badge"><b>60</b></span></button></td>
+              <td class="destination"><font size="3"><b>Eastbound</b></font></td>
               </tr><tr>
                  <th></th><td></td><th></th>
-                 <th>To Navy Pier</th>
+                 <th><h3>To Randolph/Harbor Dr</h3></th>
+               </tr><tr>
+                  <th></th><td></td><th></th>
+                  <th><h2>Every 20 minutes</h2></th>
                  </tr>
                </table>
-                <hr/>
+
 
                 <table>
                   <tr class="title">
                     <th></th>
                  </tr><tr>
                      <th></th>
-                     <th scope="col">09:20</th>
+                     <th scope="col"><h2>09:20</h2></th>
                    <td><button type="button"><span class="badge"><b>J14</b></span></button></td>
                    <td class="destination"><font size="3"><b>Southbound</b></font></td>
                  </tr><tr>
                     <th></th><td></td><th></th>
-                    <th>To 103rd/Stony Island</th>
+                    <th><h3>To 103rd/Stony Island</h3></th>
+                  </tr><tr>
+                     <th></th><td></td><th></th>
+                     <th><h2>Every 15 minutes</h2></th>
                     </tr>
                   </table>
                   <table>
@@ -72,77 +87,45 @@
                       <th></th>
                    </tr><tr>
                        <th></th>
-                       <th scope="col">09:45</th>
+                       <th scope="col"><h2>09:45</h2></th>
                      <td><button class="red" type="button"><span class="badge"><b>124</b></span></button></td>
                      <td class="destination"><font size="3"><b>Southbound</b></font></td>
                    </tr><tr>
                       <th></th><td></td><th></th>
-                      <th>To Navy Pier</th>
+                      <th><h3>To Navy Pier</h3></th>
+                    </tr><tr>
+                       <th></th><td></td><th></th>
+                       <th><h2>Every 10 minutes</h2></th>
                       </tr>
                     </table>
-                      <hr/>
+
 
                     <table>
                     <tr class="title">
                       <th></th>
                    </tr><tr>
                        <th></th>
-                       <th scope="col">10:00</th>
+                       <th scope="col"><h2>10:00</h2></th>
                      <td><button class="grey" type="button><span class="badge"><b>6x</b></span></button></td>
                      <td class="destination"><font size="3"><b>Reroute</b></font></td>
                    </tr><tr>
                       <th></th><td></td><th></th>
-                      <th>To Jackson Park Express</th>
+                      <th><h3>To Jackson Park Express</h3></th>
+                    </tr><tr>
+                       <th></th><td></td><th></th>
+                       <th><h2>Every 20 minutes</h2></th>
                       </tr>
                     </table>
-                     <hr/>
+
 
                      <table>
                       <tr>
                       <tr class="title">
 
-                      <table>
-                      <tr class="title">
-                        <th></th>
-                      </tr><tr>
-                         <th>Resumes</th>
-                         <th scope="col"></th>
-                       <td><button class="grey" type="button"><span class="badge"><b>4</b></span></button></td>
-                       <td class="destination"><b style="color:Tomato;"><i class="fas fa-exclamation-triangle"></i> Out of service</b></td>
-                     </tr><tr>
-                        <th>12:10am</th><td></td><th></th>
-                        <th>To Cottage Grove</th>
-                        </tr>
-                      </table>
-                      <table>
-                      <tr class="title">
-                        <th></th>
-                     </tr><tr>
-                         <th>Resumes</th>
-                         <th scope="col"></th>
-                       <td><button class="grey" type="button"><span class="badge"><b>20</b></span></button></td>
-                       <td class="destination"><b style="color:Tomato;"><i class="fas fa-exclamation-triangle"></i> Out of service</b></td>
-                     </tr><tr>
-                        <th>12:10am</th><td></td><th></th>
-                        <th>To Madison</th>
-                        </tr>
-                      </table>
-                      <table>
-                      <tr class="title">
-                        <th></th>
-                     </tr><tr>
-                         <th>Resumes</th>
-                         <th scope="col"></th>
-                       <td><button class="red" type="button><span class="badge"><b>157</b></span></button></td>
-                       <td class="destination"><b style="color:Tomato;"><i class="fas fa-exclamation-triangle"></i> Out of service</b></td>
-                     </tr><tr>
-                        <th>06:00am</th><td></td><th></th>
-                        <th>To Streeterville/Taylor</th>
-                        </tr>
-                      </table>
 
-            <div class="footer"><a class="fas fa-bus-alt"><a class="fas fa-train"></a></a><a class="fas fa-bicycle"></a><a class="fas fa-ticket-alt"></a><a class="far fa-bookmark"></a></div>
+
+            <div class="footer"><a class="fas fa-bus-alt"></a><a class="fas fa-bicycle"></a><a class="fas fa-ticket-alt"></a><a class="far fa-bookmark"></a><a class="fab fa-buromobelexperte"></a></div>
         </div>
-      </section>
+        </section>
   </body>
 </html>
